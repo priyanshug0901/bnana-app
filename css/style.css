@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    font-family:'Kalam', cursive;;
 }
 
 .wrapper{
@@ -22,6 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(0, 6, 85);
 }
 .main{
     width: 50%;
@@ -65,6 +67,9 @@ body{
     overflow: scroll;
     border: 2px solid black;
     border-radius: 4px;
+    text-align: left;
+    padding: 1rem;
+    font-size: large;
 }
 
 
@@ -72,6 +77,7 @@ body{
     width: 100%;
     height: 20vh;
     background-color: coral;
+    color: rgb(4, 0, 36);
 }
 .footer h2{
     padding-top: 15px;
